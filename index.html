@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>InnovateX | Smart Tech for Smart People</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header>
+    <h1>InnovateX</h1>
+    <nav>
+      <a href="#features">Features</a>
+      <a href="#gallery">Gallery</a>
+      <a href="#contact">Contact</a>
+    </nav>
+  </header>
+
+  <section class="hero">
+    <h2>Innovating the Future of Tech</h2>
+    <p>Join us as we revolutionize the digital world.</p>
+    <button id="ctaBtn">Get Started</button>
+    <p id="secret-message">🎉 Surprise! You discovered our secret launch deal! 🎁</p>
+  </section>
+
+  <section id="features">
+    <h2>Our Features</h2>
+    <div class="tabs">
+      <div class="tab active" data-tab="tab1">AI Tools</div>
+      <div class="tab" data-tab="tab2">Cloud Services</div>
+    </div>
+    <div id="tab1" class="tab-content active">
+      <p>Cutting-edge AI built to optimize your workflow.</p>
+    </div>
+    <div id="tab2" class="tab-content">
+      <p>Secure, scalable cloud solutions for your business.</p>
+    </div>
+  </section>
+
+  <section id="gallery">
+    <h2>Product Gallery</h2>
+    <div class="gallery">
+      <img src="https://images.pexels.com/photos/1148820/pexels-photo-1148820.jpeg?auto=compress&cs=tinysrgb&w=600" alt="Dashboard">
+      <img src="https://images.pexels.com/photos/267350/pexels-photo-267350.jpeg?auto=compress&cs=tinysrgb&w=600" alt="App">
+      <img src="https://images.pexels.com/photos/590020/pexels-photo-590020.jpeg?auto=compress&cs=tinysrgb&w=600" alt="Analytics">
+    </div>
+  </section>
+
+  <section id="contact">
+    <h2>Sign Up for Beta Access</h2>
+    <form id="signupForm">
+      <input type="text" id="email" placeholder="Enter your email" required />
+      <span id="emailFeedback" class="feedback"></span><br>
+
+      <input type="password" id="password" placeholder="Create a password" required />
+      <span id="passwordFeedback" class="feedback"></span><br>
+
+      <button type="submit">Join Now</button>
+    </form>
+  </section>
+
+  <footer>
+    <p>&copy; 2025 InnovateX. All rights reserved.</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
